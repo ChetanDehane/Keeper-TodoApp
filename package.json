@@ -16,8 +16,12 @@
     "uuid": "^9.0.0",
     "web-vitals": "^2.1.4"
   },
+  "author": "Chetan Dehane",
+  "homepage": "https://ChetanDehane.github.io/Keeper-TodoApp",
   "scripts": {
     "start": "react-scripts start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -39,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
